@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+    & span {
+        color: #D4DEE7;
+        font-size: 20px;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+}
