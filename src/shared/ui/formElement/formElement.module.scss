@@ -1,0 +1,68 @@
+.form {
+   padding: 40px 64px;
+   background: #1b2631;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin-top: 20px;
+
+   @media (max-width: 768px) {
+      padding: 20px 14px;
+   }
+}
+
+.textarea_custom {
+   width: 100%;
+   padding: 10px 15px;
+   border: 1px solid #ccc;
+   background-color: rgb(183 199 215);
+   color: rgb(44 61 79);
+   border-radius: 2px;
+   resize: vertical;
+   font-family: inherit;
+   font-size: 14px;
+   line-height: 1.5;
+   box-sizing: border-box;
+
+   &::placeholder {
+      color: rgba(44, 61, 79, 0.6);
+   }
+
+   &:focus {
+      outline: none;
+      border-color: #888;
+      background-color: rgb(173 189 205);
+   }
+}
+
+.button__submit {
+   width: 223px;
+   align-self: end;
+}
+
+.button__check {
+   padding: 14px 30px;
+   width: 240px;
+   align-self: center;
+}
+
+.popup__text {
+   font-size: 35px;
+   color: rgb(210, 175, 132);
+   font-weight: 500;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.form__actions {
+   display: flex;
+   justify-content: space-between;
+}
+
+.form__elem  {
+   position: relative;
+}
+
+.error {
+   color: rgb(210, 175, 132);
+}

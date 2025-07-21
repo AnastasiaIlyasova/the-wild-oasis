@@ -1,0 +1,22 @@
+.button {
+    background: rgb(198, 153, 99);
+    padding: 20px 30px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(44 61 79);
+    width: 100%;
+
+    &:hover {
+        background: rgb(183 131 67);
+    }
+
+    &:active {
+        outline: none;
+    }
+}
