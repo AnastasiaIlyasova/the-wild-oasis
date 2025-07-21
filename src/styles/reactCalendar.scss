@@ -1,0 +1,93 @@
+.react-calendar {
+  width: 100% !important;
+  max-width: 560px !important;
+  border-radius: 16px !important;
+  border: none !important;
+  padding: 16px !important;
+  color: #f9fafb !important;
+  font-family: 'Segoe UI', sans-serif !important;
+  justify-self: center;
+}
+
+.react-calendar__navigation {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 1rem !important;
+}
+
+.react-calendar__navigation button {
+  background: none !important;
+  color: #f9fafb !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  border: none !important;
+  padding: 0.5rem 1rem !important;
+  cursor: pointer !important;
+  border-radius: 8px !important;
+  transition: background 0.2s ease !important;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #374151 !important;
+}
+
+.react-calendar__tile {
+  padding: 7.75px 0 !important;
+  background: none !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease !important;
+  font-size: 0.95rem !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.react-calendar__tile:hover {
+  background-color: #4b5563 !important;
+  color: #fff !important;
+}
+
+.react-calendar__tile--now {
+  background: rgb(76 107 138) !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.react-calendar__tile--active {
+  background: rgb(210, 175, 132) !important;
+  color: white !important;
+  font-weight: bold !important;
+
+  &:hover {
+    background: rgb(183, 131, 67) !important;
+  }
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5rem 0 !important;
+}
+
+
+.react-calendar__month-view__weekdays abbr {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #4b5563 !important;
+}
+
+.react-calendar__viewContainer {
+  display: flex;
+  gap: 40px;
+
+  @media (max-width: 500px) {
+      flex-direction: column;
+  }
+}
