@@ -1,0 +1,36 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-right: 1px solid rgb(27 38 49);
+    min-height: 784px;
+
+    @media (max-width: 768px) {
+        min-height: auto;
+        padding-left: 0;
+    }
+
+    & li {
+        list-style-type:  none;
+        color: #b7c7d7;
+        font-size: 18px;
+        padding: 12px;
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+
+        &:hover {
+            background: rgb(27, 38, 49);
+            cursor: pointer;
+        }
+
+        & svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.active {
+    background: rgb(27, 38, 49);
+}

@@ -1,0 +1,36 @@
+.container {
+    background: rgb(198 153 99);
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.default__value {
+    color: #2c3d4f;
+    font-size: 24px;
+
+    & span {
+        font-size: 16px;
+    }
+}
+
+.nights__amount {
+    background: rgb(183 131 67);
+    padding: 2px 8px;
+    font-size: 24px;
+    color: #2c3d4f;
+    white-space: nowrap;
+}
+
+.total {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #2c3d4f;
+    font-weight: 700;
+
+    & span {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,24 @@
+.list__item {
+    display: flex;
+    border: 1px solid rgb(44 61 79);
+
+    &__image {
+        max-width: 187px;
+        height: 100%;
+        min-height: 209px;
+
+        & img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+
+    &__info {
+        width: 100%;
+        padding: 20px 28px;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

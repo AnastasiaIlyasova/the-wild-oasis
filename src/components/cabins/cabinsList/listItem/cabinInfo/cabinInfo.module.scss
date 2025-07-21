@@ -1,0 +1,87 @@
+.cabin__info {
+    &__name {
+        color: rgb(198 153 99);
+        font-size: 24px;
+        margin-bottom: 12px;
+        padding-right: 28px;
+        padding-left: 28px;
+    }
+
+    &__guests {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        gap: 12px;
+        margin-bottom: 8px;
+        padding-right: 28px;
+        padding-left: 28px;
+
+        > :not(svg) {
+            color: rgb(183 199 215);
+        }
+
+        & svg {
+            color: rgb(76 107 138);
+            width: 20px;
+            height: 20px;
+        }
+
+        & p {
+            margin: 0;
+        }
+    }
+
+    &__price {
+        color: #D4DEE7;
+        text-align: right;
+        margin-bottom: 25px;
+        padding-right: 28px;
+        padding-left: 28px;
+
+        &__regular {
+            font-size: 30px;
+            font-weight: 350;
+
+            @media (max-width: 475px) {
+                font-size: 17px;
+            }
+        }
+
+        &__discount {
+            font-size: 16px;
+            font-weight: 500;
+            color: rgb(76 107 138);
+            text-decoration-line: line-through;
+        }
+    }
+
+    &__details {
+        text-align: right;
+        padding: 12px 0px;
+        border-top: 1px solid rgb(44 61 79);
+
+        @media (max-width: 475px) {
+            text-align: center;
+        }
+
+        & a {
+            color: #D4DEE7;
+            padding: 16px 24px;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(.4,0,.2,1);
+            transition-duration: .15s;
+            border: 1px solid rgb(44 61 79);
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(27 38 49);
+                background: rgb(183 131 67);
+            }
+
+            @media (max-width: 475px) {
+                border: none;
+                padding: 0;
+            }
+        }
+    }
+}

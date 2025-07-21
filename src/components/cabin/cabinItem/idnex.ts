@@ -1,0 +1,1 @@
+export { CabinItem } from "./CabinItem";

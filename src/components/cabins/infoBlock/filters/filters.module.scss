@@ -1,0 +1,30 @@
+.filters__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    padding-bottom: 32px;
+}
+
+.filters {
+    border: 1px solid rgb(44 61 79);
+
+    & button {
+        background-color: #141C24;
+        color: #E1E8EF;
+        font-size: 16px;
+        border: none;
+        padding: 13px 21px;
+
+        &:hover {
+            background-color: rgb(60 84 108);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+    
+    &__active {
+        background-color: rgb(60 84 108) !important;
+    }
+}

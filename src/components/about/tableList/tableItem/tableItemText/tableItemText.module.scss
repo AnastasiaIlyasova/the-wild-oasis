@@ -1,0 +1,18 @@
+.table__item__text {
+    &__title {
+        color: rgb(210 175 132);
+        font-weight: 500;
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    &__description {
+        font-size: 18px;
+        color: #D4DEE7;
+        line-height: 28px;
+    }
+
+    &__button {
+        max-width: 300px;
+    }
+}

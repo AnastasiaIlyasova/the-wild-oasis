@@ -1,0 +1,1 @@
+export { TableItemText } from "./TableItemText";

@@ -1,0 +1,1 @@
+export { TableItemImage } from "./TableItemImage";

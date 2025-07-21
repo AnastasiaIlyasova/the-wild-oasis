@@ -1,0 +1,15 @@
+.table__list {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+.table__list__container {
+    border-top: 1px solid #1b2631;
+    background-color: #141C24;
+    padding: 0 40px;
+}

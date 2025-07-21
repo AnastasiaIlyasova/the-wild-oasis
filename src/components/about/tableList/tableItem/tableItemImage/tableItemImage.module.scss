@@ -1,0 +1,9 @@
+.table__item__image {
+    justify-self: end;
+
+    & img {
+        width: 100%;
+        max-width: 454px;
+        max-height: 454px;
+    }
+}

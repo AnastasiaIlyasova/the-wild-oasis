@@ -1,0 +1,1 @@
+export { CabinInfo } from "./CabinInfo"

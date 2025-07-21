@@ -1,0 +1,7 @@
+.title {
+    margin-top: 48px;
+
+    @media (max-width: 768px) {
+        margin-top: 0;
+    }
+}

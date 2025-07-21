@@ -1,0 +1,21 @@
+.hero__section {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 120px;
+
+    &__btn {
+        max-width: 300px;
+    }
+
+    & h1 {
+        color: rgb(225 232 239);
+        letter-spacing: -.025em;
+        font-weight: 400;
+        font-size: 96px;
+
+        @media (max-width: 768px) {
+            font-size: 48px;
+        }
+    }
+}

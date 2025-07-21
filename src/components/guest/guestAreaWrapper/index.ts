@@ -1,0 +1,1 @@
+export { GuestAreaWrapper } from "./GuestAreaWrapper"

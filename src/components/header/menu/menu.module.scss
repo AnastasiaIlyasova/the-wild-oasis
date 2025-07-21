@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+
+    @media (max-width: 768px) {
+        gap: 20px;
+    }
+
+    & li a {
+        cursor: pointer;
+        color: #D4DEE7;
+        font-size: 20px;
+
+        @media (max-width: 768px) {
+            font-size: 15px;
+        }
+
+        &:hover {
+            color: rgb(210 175 132);
+            transition-property: color;
+            transition-timing-function: cubic-bezier(.4,0,.2,1);
+            transition-duration: .15s;
+        }
+    }
+
+    &__active a {
+        color: rgb(210 175 132) !important;
+    }
+}
